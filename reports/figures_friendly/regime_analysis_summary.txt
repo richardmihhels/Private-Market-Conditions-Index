@@ -1,0 +1,81 @@
+==========================================================================================
+REGIME-BASED CORRELATION ANALYSIS
+==========================================================================================
+
+Analysis Period: Last 10 Years (2015-11-30 to 2025-11-30)
+Total Months Analyzed: 121
+
+📈 GOOD MONTHS: 60 months (SPY returns > median = 1.81%)
+   Average SPY return: 4.47%
+
+📉 BAD MONTHS: 61 months (SPY returns ≤ median)
+   Average SPY return: -1.97%
+
+==========================================================================================
+KEY INSIGHTS: How Relationships Change
+==========================================================================================
+
+🔥 TOP 10 BIGGEST REGIME DIFFERENCES
+
+📈 MORE IMPORTANT IN GOOD TIMES (+0.655 difference)
+   HYG ↔ Inflation (CPI)
+   Good: +0.219 | Bad: -0.436
+   💡 This relationship is STRONGER when markets are rising
+
+📈 MORE IMPORTANT IN GOOD TIMES (+0.642 difference)
+   HYG ↔ Core Inflation
+   Good: +0.283 | Bad: -0.359
+   💡 This relationship is STRONGER when markets are rising
+
+📈 MORE IMPORTANT IN GOOD TIMES (+0.626 difference)
+   HYG ↔ Inflation (PCE)
+   Good: +0.217 | Bad: -0.410
+   💡 This relationship is STRONGER when markets are rising
+
+📈 MORE IMPORTANT IN GOOD TIMES (+0.611 difference)
+   JNK ↔ Core Inflation
+   Good: +0.267 | Bad: -0.344
+   💡 This relationship is STRONGER when markets are rising
+
+📈 MORE IMPORTANT IN GOOD TIMES (+0.608 difference)
+   JNK ↔ Inflation (CPI)
+   Good: +0.192 | Bad: -0.416
+   💡 This relationship is STRONGER when markets are rising
+
+📈 MORE IMPORTANT IN GOOD TIMES (+0.582 difference)
+   JNK ↔ Inflation (PCE)
+   Good: +0.192 | Bad: -0.390
+   💡 This relationship is STRONGER when markets are rising
+
+📈 MORE IMPORTANT IN GOOD TIMES (+0.540 difference)
+   CG ↔ Core Inflation
+   Good: +0.189 | Bad: -0.352
+   💡 This relationship is STRONGER when markets are rising
+
+📉 MORE IMPORTANT IN BAD TIMES (-0.500 difference)
+   HYG ↔ Consumer Conf
+   Good: -0.269 | Bad: +0.230
+   💡 This relationship is STRONGER when markets are falling
+
+📉 MORE IMPORTANT IN BAD TIMES (-0.492 difference)
+   JNK ↔ Consumer Conf
+   Good: -0.278 | Bad: +0.214
+   💡 This relationship is STRONGER when markets are falling
+
+📈 MORE IMPORTANT IN GOOD TIMES (+0.489 difference)
+   PSP ↔ Core Inflation
+   Good: +0.161 | Bad: -0.327
+   💡 This relationship is STRONGER when markets are rising
+
+==========================================================================================
+INTERPRETATION GUIDE
+==========================================================================================
+
+• Positive difference = Factor matters MORE in good times
+• Negative difference = Factor matters MORE in bad times (crisis predictor)
+• Small difference = Relationship is STABLE across regimes
+
+Use this to understand which indicators are:
+  - Pro-cyclical boosters (work best when times are good)
+  - Crisis indicators (become important when markets turn)
+  - All-weather indicators (consistent across both regimes)

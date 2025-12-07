@@ -1,0 +1,67 @@
+==========================================================================================
+OUT-OF-SAMPLE TESTING RESULTS
+Train on Historical Data, Predict Future Returns
+==========================================================================================
+
+📊 METHODOLOGY:
+   • Train Period: First 80% of data (historical)
+   • Test Period: Last 20% of data (recent/future)
+   • Model never sees test data during training
+   • This tests TRUE predictive power!
+
+==========================================================================================
+🎯 PERFORMANCE COMPARISON: IN-SAMPLE vs OUT-OF-SAMPLE
+==========================================================================================
+
+Asset             Train R²    Test R²   Δ (Drop)   Hit Rate        MAE
+------------------------------------------------------------------------------------------
+BIZD                 0.103      0.028      0.075      61.3%     0.0277
+CG                   0.068     -0.003      0.071      53.1%     0.1048
+IEF                  0.187     -0.027      0.214      56.0%     0.0187
+BX                   0.059     -0.034      0.093      61.4%     0.0860
+KKR                  0.046     -0.085      0.131      59.5%     0.0861
+APO                  0.058     -0.115      0.173      62.9%     0.0777
+PSP                  0.110     -0.237      0.347      60.9%     0.0572
+SPY                  0.074     -0.261      0.334      52.0%     0.0419
+VBR                  0.084     -0.346      0.430      60.0%     0.0515
+SRLN                 0.156     -0.596      0.752      80.0%     0.0064
+JNK                  0.146     -0.683      0.829      44.2%     0.0216
+BKLN                 0.061     -0.798      0.859      80.0%     0.0078
+HYG                  0.107     -0.830      0.936      48.9%     0.0218
+ARCC                 0.121     -1.082      1.203      54.0%     0.0447
+
+==========================================================================================
+📊 SUMMARY STATISTICS
+==========================================================================================
+
+Average In-Sample R²: 0.098
+Average Out-of-Sample R²: -0.362
+Average Performance Drop: 0.460 (467.6%)
+Average Hit Rate: 59.6%
+
+🏆 Best Out-of-Sample: BIZD (R² = 0.028)
+⚠️  Worst Out-of-Sample: ARCC (R² = -1.082)
+
+==========================================================================================
+💡 INTERPRETATION GUIDE
+==========================================================================================
+
+R² TEST (Out-of-Sample R²):
+  • > 0.10 = Good predictive power
+  • 0.05-0.10 = Moderate predictive power
+  • < 0.05 = Weak/no predictive power
+  • Negative = Worse than just predicting the mean!
+
+DEGRADATION (Train R² - Test R²):
+  • Small drop (<30%) = Stable, reliable model
+  • Medium drop (30-50%) = Some overfitting
+  • Large drop (>50%) = Severe overfitting, not reliable
+
+HIT RATE:
+  • >60% = Good directional prediction
+  • 50% = No better than coin flip
+  • <50% = Actually predicting wrong direction!
+
+🎓 KEY INSIGHT:
+   If Test R² is positive and Hit Rate > 55%, the model has
+   genuine predictive power for future returns!

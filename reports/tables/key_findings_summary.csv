@@ -1,0 +1,12 @@
+Feature Category,Asset Group,Lag,Mean Correlation,Max |Correlation|,Strength
+Credit Spreads (HY/IG),PE,Lag 0,0.575,0.787,VERY STRONG
+Credit Spreads (HY/IG),PC,Lag 0,0.744,0.878,VERY STRONG
+Risk Sentiment (VIX),PE,Lag 0,0.584,0.698,VERY STRONG
+Risk Sentiment (VIX),PC,Lag 0,0.592,0.658,STRONG
+Interest Rates,PE,Lag 0,0.063,0.225,WEAK
+Interest Rates,PC,Lag 0,0.1,0.212,WEAK
+Interest Rates,PC,Lag 1,-0.063,0.265,WEAK
+Inflation,PE,Lag 0,-0.086,0.184,WEAK
+Inflation,PC,Lag 1,-0.104,0.229,WEAK
+Growth Indicators,PE,Lag 0,0.01,0.112,VERY WEAK
+Growth Indicators,PC,Lag 0,-0.068,0.167,WEAK

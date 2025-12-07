@@ -1,0 +1,48 @@
+================================================================================
+TOP 10 STRONGEST MACRO-MARKET RELATIONSHIPS
+================================================================================
+
+ 1. MODERATE NEGATIVE (-0.265)
+    BDC ETF <-> Fed Rate Changes
+    Insight: Worse Fed Rate Changes -> LOWER BDC ETF returns
+
+ 2. MODERATE NEGATIVE (-0.265)
+    Senior Loans <-> Fed Rate Changes
+    Insight: Worse Fed Rate Changes -> LOWER Senior Loans returns
+
+ 3. MODERATE POSITIVE (+0.243)
+    Senior Loans <-> Market Volatility ⬇
+    Insight: Better Market Volatility ⬇ -> HIGHER Senior Loans returns
+
+ 4. MODERATE NEGATIVE (-0.229)
+    Junk Bonds <-> Inflation (CPI)
+    Insight: Worse Inflation (CPI) -> LOWER Junk Bonds returns
+
+ 5. MODERATE NEGATIVE (-0.222)
+    PSP (PE ETF) <-> Inflation (CPI)
+    Insight: Worse Inflation (CPI) -> LOWER PSP (PE ETF) returns
+
+ 6. MODERATE NEGATIVE (-0.215)
+    High Yield Bonds <-> Inflation (CPI)
+    Insight: Worse Inflation (CPI) -> LOWER High Yield Bonds returns
+
+ 7. MODERATE POSITIVE (+0.215)
+    Ares Capital <-> Market Volatility ⬇
+    Insight: Better Market Volatility ⬇ -> HIGHER Ares Capital returns
+
+ 8. MODERATE POSITIVE (+0.205)
+    Junk Bonds <-> Yield Curve ⬇
+    Insight: Better Yield Curve ⬇ -> HIGHER Junk Bonds returns
+
+ 9. MODERATE NEGATIVE (-0.205)
+    Junk Bonds <-> Inflation (PCE)
+    Insight: Worse Inflation (PCE) -> LOWER Junk Bonds returns
+
+10. MODERATE POSITIVE (+0.203)
+    Junk Bonds <-> Financial Stress ⬇
+    Insight: Better Financial Stress ⬇ -> HIGHER Junk Bonds returns
+
+================================================================================
+
+NOTE: Down arrows (⬇) mean variable was inverted so higher = better conditions
+For example: High Yield Spreads ⬇ means tightening spreads (improving credit)

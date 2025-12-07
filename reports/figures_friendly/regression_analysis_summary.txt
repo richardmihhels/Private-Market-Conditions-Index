@@ -1,0 +1,189 @@
+==========================================================================================
+LINEAR REGRESSION ANALYSIS - QUANTIFYING MACRO IMPACT
+==========================================================================================
+
+📊 WHAT THIS SHOWS:
+   Instead of just correlation, we quantify the actual effect size:
+   'If macro factor increases by 1 standard deviation → returns change by X%'
+
+==========================================================================================
+🎯 TOP 15 STRONGEST PREDICTIVE RELATIONSHIPS
+==========================================================================================
+
+ 1. *** HIGHLY SIGNIFICANT (R² = 0.070, p = 0.0010)
+    Senior Loans ~ Fed Rate Changes
+    📈 Effect Size: -0.0044
+    💡 When Fed Rate Changes worsens by 1 std dev
+       → Senior Loans returns decrease by 0.44%
+    📊 Explains 7.0% of return variation
+    📅 Based on 151 monthly observations
+
+ 2. *** HIGHLY SIGNIFICANT (R² = 0.069, p = 0.0010)
+    BDC ETF ~ Fed Rate Changes
+    📈 Effect Size: -0.0169
+    💡 When Fed Rate Changes worsens by 1 std dev
+       → BDC ETF returns decrease by 1.69%
+    📊 Explains 6.9% of return variation
+    📅 Based on 153 monthly observations
+
+ 3. *** HIGHLY SIGNIFICANT (R² = 0.059, p = 0.0027)
+    Senior Loans ~ Volatility ⬇
+    📈 Effect Size: 0.0034
+    💡 When Volatility ⬇ improves by 1 std dev
+       → Senior Loans returns increase by 0.34%
+    📊 Explains 5.9% of return variation
+    📅 Based on 151 monthly observations
+
+ 4. *** HIGHLY SIGNIFICANT (R² = 0.052, p = 0.0007)
+    Junk Bonds ~ Inflation (CPI)
+    📈 Effect Size: -0.0066
+    💡 When Inflation (CPI) worsens by 1 std dev
+       → Junk Bonds returns decrease by 0.66%
+    📊 Explains 5.2% of return variation
+    📅 Based on 215 monthly observations
+
+ 5. *** HIGHLY SIGNIFICANT (R² = 0.050, p = 0.0007)
+    PSP (PE ETF) ~ Inflation (CPI)
+    📈 Effect Size: -0.0147
+    💡 When Inflation (CPI) worsens by 1 std dev
+       → PSP (PE ETF) returns decrease by 1.47%
+    📊 Explains 5.0% of return variation
+    📅 Based on 229 monthly observations
+
+ 6. *** HIGHLY SIGNIFICANT (R² = 0.046, p = 0.0012)
+    High Yield Bonds ~ Inflation (CPI)
+    📈 Effect Size: -0.0057
+    💡 When Inflation (CPI) worsens by 1 std dev
+       → High Yield Bonds returns decrease by 0.57%
+    📊 Explains 4.6% of return variation
+    📅 Based on 223 monthly observations
+
+ 7. *** HIGHLY SIGNIFICANT (R² = 0.046, p = 0.0006)
+    Ares Capital ~ Volatility ⬇
+    📈 Effect Size: 0.0167
+    💡 When Volatility ⬇ improves by 1 std dev
+       → Ares Capital returns increase by 1.67%
+    📊 Explains 4.6% of return variation
+    📅 Based on 250 monthly observations
+
+ 8. *** HIGHLY SIGNIFICANT (R² = 0.042, p = 0.0025)
+    Junk Bonds ~ Inflation (PCE)
+    📈 Effect Size: -0.0059
+    💡 When Inflation (PCE) worsens by 1 std dev
+       → Junk Bonds returns decrease by 0.59%
+    📊 Explains 4.2% of return variation
+    📅 Based on 215 monthly observations
+
+ 9. *** HIGHLY SIGNIFICANT (R² = 0.042, p = 0.0025)
+    Junk Bonds ~ Yield Curve ⬇
+    📈 Effect Size: 0.0067
+    💡 When Yield Curve ⬇ improves by 1 std dev
+       → Junk Bonds returns increase by 0.67%
+    📊 Explains 4.2% of return variation
+    📅 Based on 215 monthly observations
+
+10. *** HIGHLY SIGNIFICANT (R² = 0.041, p = 0.0028)
+    Junk Bonds ~ Financial Stress ⬇
+    📈 Effect Size: 0.0058
+    💡 When Financial Stress ⬇ improves by 1 std dev
+       → Junk Bonds returns increase by 0.58%
+    📊 Explains 4.1% of return variation
+    📅 Based on 215 monthly observations
+
+11. *** HIGHLY SIGNIFICANT (R² = 0.038, p = 0.0037)
+    High Yield Bonds ~ Yield Curve ⬇
+    📈 Effect Size: 0.0058
+    💡 When Yield Curve ⬇ improves by 1 std dev
+       → High Yield Bonds returns increase by 0.58%
+    📊 Explains 3.8% of return variation
+    📅 Based on 223 monthly observations
+
+12. *** HIGHLY SIGNIFICANT (R² = 0.037, p = 0.0039)
+    High Yield Bonds ~ Inflation (PCE)
+    📈 Effect Size: -0.0051
+    💡 When Inflation (PCE) worsens by 1 std dev
+       → High Yield Bonds returns decrease by 0.51%
+    📊 Explains 3.7% of return variation
+    📅 Based on 223 monthly observations
+
+13. *** HIGHLY SIGNIFICANT (R² = 0.037, p = 0.0036)
+    PSP (PE ETF) ~ Inflation (PCE)
+    📈 Effect Size: -0.0126
+    💡 When Inflation (PCE) worsens by 1 std dev
+       → PSP (PE ETF) returns decrease by 1.26%
+    📊 Explains 3.7% of return variation
+    📅 Based on 229 monthly observations
+
+14. *** HIGHLY SIGNIFICANT (R² = 0.035, p = 0.0029)
+    Ares Capital ~ Inflation (CPI)
+    📈 Effect Size: -0.0142
+    💡 When Inflation (CPI) worsens by 1 std dev
+       → Ares Capital returns decrease by 1.42%
+    📊 Explains 3.5% of return variation
+    📅 Based on 250 monthly observations
+
+15. *** HIGHLY SIGNIFICANT (R² = 0.035, p = 0.0061)
+    Junk Bonds ~ Volatility ⬇
+    📈 Effect Size: 0.0055
+    💡 When Volatility ⬇ improves by 1 std dev
+       → Junk Bonds returns increase by 0.55%
+    📊 Explains 3.5% of return variation
+    📅 Based on 215 monthly observations
+
+==========================================================================================
+💡 KEY INSIGHTS BY ASSET GROUP
+==========================================================================================
+
+📊 PRIVATE EQUITY - Top Drivers:
+   • Inflation (CPI): -1.47% per std dev (R² = 0.050)
+   • Inflation (PCE): -1.26% per std dev (R² = 0.037)
+   • Inflation (CPI): -1.78% per std dev (R² = 0.034)
+   • Yield Curve ⬇: -1.81% per std dev (R² = 0.029)
+   • Fed Rate Changes: -2.01% per std dev (R² = 0.029)
+
+💰 PRIVATE CREDIT - Top Drivers:
+   • Fed Rate Changes: -0.44% per std dev (R² = 0.070)
+   • Fed Rate Changes: -1.69% per std dev (R² = 0.069)
+   • Volatility ⬇: +0.34% per std dev (R² = 0.059)
+   • Inflation (CPI): -0.66% per std dev (R² = 0.052)
+   • Inflation (CPI): -0.57% per std dev (R² = 0.046)
+
+==========================================================================================
+📖 INTERPRETATION GUIDE
+==========================================================================================
+
+COEFFICIENT: The slope of the regression line
+  • Positive = Factor increase → Returns increase
+  • Negative = Factor increase → Returns decrease
+  • Magnitude = Size of effect (in percentage points)
+
+R-SQUARED: How much variation is explained
+  • 0.10 = Explains 10% of returns (weak)
+  • 0.25 = Explains 25% of returns (moderate)
+  • 0.50 = Explains 50% of returns (strong)
+
+P-VALUE: Statistical significance
+  • < 0.01 = Highly significant (*** very reliable)
+  • < 0.05 = Significant (** reliable)
+  • > 0.05 = Not significant (* might be noise)
+
+STANDARD DEVIATION (std dev):
+  • Features are z-scored (normalized)
+  • 1 std dev = typical monthly fluctuation
+  • 2 std dev = large monthly move
+
+==========================================================================================
+🎓 EXAMPLE INTERPRETATION
+==========================================================================================
+
+If we see: 'Blackstone ~ HY Spreads, Coefficient = -0.035'
+
+This means:
+  1. When HY spreads tighten by 1 std dev (improving credit conditions)
+  2. Blackstone returns increase by 3.5%
+  3. This is because the spreads variable was inverted (⬇)
+
+Real-world example:
+  • Normal month: HY spread change = 0
+  • Good month: HY spreads tighten by 50bp (1 std dev)
+  • Result: BX returns 3.5% higher than expected!

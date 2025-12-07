@@ -1,0 +1,99 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.virtualenv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data directories (raw data not tracked)
+data/raw/
+data_processed/
+
+# Directories with only venv (from project cleanup)
+private-markets-index/
+usa_private_markets/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.log
+.cache/
+
+# Asymmetric strategy files (proprietary, not for public release)
+backtesting/results/BREAKTHROUGH_*.png
+backtesting/results/BREAKTHROUGH_*.csv
+backtesting/create_breakthrough_visualization.py
+backtesting/test_optimal_strategies.py
+backtesting/test_top_3_with_shorting.py
+backtesting/results/optimal_strategies_*.png
+backtesting/results/optimal_strategies_*.csv
+backtesting/results/top_3_long_short_*.png
+backtesting/results/top_3_long_short_*.csv
+backtesting/FINAL_CONCLUSIONS.md
+backtesting/WHY_HIGH_HIT_RATES_DONT_ALWAYS_WIN.md
+backtesting/WHAT_WE_BUILT.md
+
+# Phase 4 comprehensive findings (keep private)
+COMPREHENSIVE_FINDINGS/visualizations/PHASE_4_*.png
+COMPREHENSIVE_FINDINGS/visualizations/PHASE_4_*.txt
+COMPREHENSIVE_FINDINGS/visualizations/ASYMMETRIC_*.png
+COMPREHENSIVE_FINDINGS/visualizations/ASYMMETRIC_*.csv
+COMPREHENSIVE_FINDINGS/visualizations/create_phase4_visualization.py
+COMPREHENSIVE_FINDINGS/visualizations/create_top5_asymmetric_visualizations.py
+COMPREHENSIVE_FINDINGS/00_EXECUTIVE_SUMMARY.md
+COMPREHENSIVE_FINDINGS/01_PROJECT_JOURNEY.md
+
+# Master dashboard with Phase 4 content
+COMPREHENSIVE_FINDINGS/visualizations/MASTER_DASHBOARD.png
+COMPREHENSIVE_FINDINGS/visualizations/create_master_dashboard.py
+
+
+
+# Individual strategy backtest examples (keep only core validation)
+backtesting/test_apo_lasso_strategy.py
+backtesting/test_srln_gradient_boosting.py
+backtesting/QUICK_REFERENCE.md
+backtesting/results/APO_lasso_*
+backtesting/results/SRLN_*
+backtesting/results/BKLN_*_short_*

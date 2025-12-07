@@ -1,0 +1,279 @@
+==========================================================================================
+MULTIPLE LINEAR REGRESSION ANALYSIS
+Combining Top Macro Factors to Predict Returns
+==========================================================================================
+
+📊 METHODOLOGY:
+   For each asset, we select the 5 most correlated macro factors
+   and build a multiple regression model:
+   Returns = β₀ + β₁×Factor₁ + β₂×Factor₂ + ... + β₅×Factor₅
+
+==========================================================================================
+🎯 MODEL PERFORMANCE BY ASSET
+==========================================================================================
+
+
+============================================================
+🏦 SRLN
+============================================================
+R² = 0.140 (14.0% of returns explained)
+RMSE = 0.0139
+Observations: 149
+
+📈 Selected Factors & Impact:
+   ↓ Fed Rate            : -0.0043 (-0.43%)
+   ↑ Volatility          : +0.0035 (+0.35%)
+   ↓ Ind Production      : -0.0010 (-0.10%)
+   ↓ Econ Activity       : -0.0005 (-0.05%)
+   ↑ Unemployment        : +0.0004 (+0.04%)
+
+💡 Interpretation:
+   When all 5 factors improve by 1 std dev simultaneously,
+   SRLN returns increase by -0.19%
+
+============================================================
+🏦 IEF
+============================================================
+R² = 0.138 (13.8% of returns explained)
+RMSE = 0.0176
+Observations: 248
+
+📈 Selected Factors & Impact:
+   ↓ HY Spreads          : -0.0108 (-1.08%)
+   ↑ IG Spreads          : +0.0058 (+0.58%)
+   ↑ Fin Stress          : +0.0019 (+0.19%)
+   ↓ Volatility          : -0.0019 (-0.19%)
+   ↓ Fed Rate            : -0.0015 (-0.15%)
+
+💡 Interpretation:
+   When all 5 factors improve by 1 std dev simultaneously,
+   IEF returns increase by -0.65%
+
+============================================================
+🏦 BIZD
+============================================================
+R² = 0.098 (9.8% of returns explained)
+RMSE = 0.0550
+Observations: 151
+
+📈 Selected Factors & Impact:
+   ↓ Fed Rate            : -0.0155 (-1.55%)
+   ↓ Econ Activity       : -0.0091 (-0.91%)
+   ↑ Volatility          : +0.0075 (+0.75%)
+   ↑ Unemployment        : +0.0072 (+0.72%)
+   ↓ Ind Production      : -0.0026 (-0.26%)
+
+💡 Interpretation:
+   When all 5 factors improve by 1 std dev simultaneously,
+   BIZD returns increase by -1.26%
+
+============================================================
+🏦 JNK
+============================================================
+R² = 0.093 (9.3% of returns explained)
+RMSE = 0.0314
+Observations: 213
+
+📈 Selected Factors & Impact:
+   ↓ Inflation           : -0.0063 (-0.63%)
+   ↑ Fin Stress          : +0.0060 (+0.60%)
+   ↓ IG Spreads          : -0.0041 (-0.41%)
+   ↑ Volatility          : +0.0029 (+0.29%)
+   ↓ Ind Production      : -0.0001 (-0.01%)
+
+💡 Interpretation:
+   When all 5 factors improve by 1 std dev simultaneously,
+   JNK returns increase by -0.16%
+
+============================================================
+🏦 ARCC
+============================================================
+R² = 0.084 (8.4% of returns explained)
+RMSE = 0.0786
+Observations: 248
+
+📈 Selected Factors & Impact:
+   ↑ Volatility          : +0.0161 (+1.61%)
+   ↓ Inflation           : -0.0093 (-0.93%)
+   ↓ Ind Production      : -0.0080 (-0.80%)
+   ↓ Fin Stress          : -0.0048 (-0.48%)
+   ↑ IG Spreads          : +0.0039 (+0.39%)
+
+💡 Interpretation:
+   When all 5 factors improve by 1 std dev simultaneously,
+   ARCC returns increase by -0.21%
+
+============================================================
+🏦 PSP
+============================================================
+R² = 0.072 (7.2% of returns explained)
+RMSE = 0.0706
+Observations: 227
+
+📈 Selected Factors & Impact:
+   ↓ Inflation           : -0.0130 (-1.30%)
+   ↑ Volatility          : +0.0064 (+0.64%)
+   ↑ Fin Stress          : +0.0027 (+0.27%)
+   ↑ IG Spreads          : +0.0018 (+0.18%)
+   ↑ HY Spreads          : +0.0004 (+0.04%)
+
+💡 Interpretation:
+   When all 5 factors improve by 1 std dev simultaneously,
+   PSP returns increase by -0.17%
+
+============================================================
+🏦 HYG
+============================================================
+R² = 0.059 (5.9% of returns explained)
+RMSE = 0.0291
+Observations: 221
+
+📈 Selected Factors & Impact:
+   ↓ Inflation           : -0.0049 (-0.49%)
+   ↓ Fed Rate            : -0.0019 (-0.19%)
+   ↑ Fin Stress          : +0.0018 (+0.18%)
+   ↑ Volatility          : +0.0014 (+0.14%)
+   ↑ Ind Production      : +0.0001 (+0.01%)
+
+💡 Interpretation:
+   When all 5 factors improve by 1 std dev simultaneously,
+   HYG returns increase by -0.34%
+
+============================================================
+🏦 CG
+============================================================
+R² = 0.055 (5.5% of returns explained)
+RMSE = 0.1002
+Observations: 160
+
+📈 Selected Factors & Impact:
+   ↓ Fed Rate            : -0.0174 (-1.74%)
+   ↓ Unemployment        : -0.0098 (-0.98%)
+   ↑ GDP Growth          : +0.0097 (+0.97%)
+   ↑ Econ Activity       : +0.0033 (+0.33%)
+   ↓ Inflation           : -0.0015 (-0.15%)
+
+💡 Interpretation:
+   When all 5 factors improve by 1 std dev simultaneously,
+   CG returns increase by -1.57%
+
+============================================================
+🏦 BX
+============================================================
+R² = 0.048 (4.8% of returns explained)
+RMSE = 0.1056
+Observations: 219
+
+📈 Selected Factors & Impact:
+   ↓ Inflation           : -0.0167 (-1.67%)
+   ↑ GDP Growth          : +0.0084 (+0.84%)
+   ↑ IG Spreads          : +0.0046 (+0.46%)
+   ↑ HY Spreads          : +0.0020 (+0.20%)
+   ↑ Fin Stress          : +0.0015 (+0.15%)
+
+💡 Interpretation:
+   When all 5 factors improve by 1 std dev simultaneously,
+   BX returns increase by -0.02%
+
+============================================================
+🏦 VBR
+============================================================
+R² = 0.043 (4.3% of returns explained)
+RMSE = 0.0551
+Observations: 248
+
+📈 Selected Factors & Impact:
+   ↓ Inflation           : -0.0088 (-0.88%)
+   ↑ GDP Growth          : +0.0067 (+0.67%)
+   ↑ Fin Stress          : +0.0023 (+0.23%)
+   ↓ IG Spreads          : -0.0016 (-0.16%)
+   ↑ Volatility          : +0.0014 (+0.14%)
+
+💡 Interpretation:
+   When all 5 factors improve by 1 std dev simultaneously,
+   VBR returns increase by +0.01%
+
+============================================================
+🏦 APO
+============================================================
+R² = 0.038 (3.8% of returns explained)
+RMSE = 0.0993
+Observations: 174
+
+📈 Selected Factors & Impact:
+   ↓ IG Spreads          : -0.0201 (-2.01%)
+   ↓ Unemployment        : -0.0161 (-1.61%)
+   ↑ HY Spreads          : +0.0118 (+1.18%)
+   ↓ Fed Rate            : -0.0092 (-0.92%)
+   ↑ Econ Activity       : +0.0051 (+0.51%)
+
+💡 Interpretation:
+   When all 5 factors improve by 1 std dev simultaneously,
+   APO returns increase by -2.85%
+
+============================================================
+🏦 BKLN
+============================================================
+R² = 0.036 (3.6% of returns explained)
+RMSE = 0.0134
+Observations: 174
+
+📈 Selected Factors & Impact:
+   ↓ Fed Rate            : -0.0023 (-0.23%)
+   ↑ Volatility          : +0.0013 (+0.13%)
+   ↓ Ind Production      : -0.0006 (-0.06%)
+   ↓ Unemployment        : -0.0001 (-0.01%)
+   ↓ Econ Activity       : -0.0001 (-0.01%)
+
+💡 Interpretation:
+   When all 5 factors improve by 1 std dev simultaneously,
+   BKLN returns increase by -0.19%
+
+============================================================
+🏦 SPY
+============================================================
+R² = 0.035 (3.5% of returns explained)
+RMSE = 0.0422
+Observations: 248
+
+📈 Selected Factors & Impact:
+   ↓ Inflation           : -0.0076 (-0.76%)
+   ↓ HY Spreads          : -0.0023 (-0.23%)
+   ↑ IG Spreads          : +0.0013 (+0.13%)
+   ↑ Volatility          : +0.0012 (+0.12%)
+   ↑ Fed Rate            : +0.0010 (+0.10%)
+
+💡 Interpretation:
+   When all 5 factors improve by 1 std dev simultaneously,
+   SPY returns increase by -0.64%
+
+============================================================
+🏦 KKR
+============================================================
+R² = 0.028 (2.8% of returns explained)
+RMSE = 0.0928
+Observations: 182
+
+📈 Selected Factors & Impact:
+   ↓ Fed Rate            : -0.0170 (-1.70%)
+   ↑ Fin Stress          : +0.0131 (+1.31%)
+   ↓ Volatility          : -0.0097 (-0.97%)
+   ↑ Unemployment        : +0.0015 (+0.15%)
+   ↓ Inflation           : -0.0012 (-0.12%)
+
+💡 Interpretation:
+   When all 5 factors improve by 1 std dev simultaneously,
+   KKR returns increase by -1.33%
+
+==========================================================================================
+📊 SUMMARY STATISTICS
+==========================================================================================
+
+Average R² across all assets: 0.069
+Best model: SRLN (R² = 0.140)
+Worst model: KKR (R² = 0.028)
+
+💡 KEY INSIGHT:
+   Multiple regression typically explains 2-3x more variation than
+   single-factor models, showing that returns depend on combinations
+   of factors, not just one at a time!
